@@ -55,7 +55,9 @@ Model package provenance: face detection and recognition packages are from
 `5d9c36063dddbe98b5387828c831d6bbadb1370f`, under `esp-dl`.
 
 The package license review is not a separate audit of model training datasets.
-No real face samples or enrolled feature database are included in this repository.
+No face-enrollment datasets or enrolled feature databases are included in this repository.
+The hardware photograph in `docs/images/camera-lab-hardware.jpg` was supplied by
+the repository maintainer.
 
 ## Project origin
 
