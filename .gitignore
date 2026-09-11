@@ -1,0 +1,43 @@
+# Generated ESP-IDF outputs and local component downloads
+/build*/
+/managed_components/
+/sdkconfig
+/sdkconfig.old
+/sdkconfig.*.old
+/sdkconfig.local*
+/compile_commands.json
+
+# Machine-local SDKs, tools, caches and editor settings
+/.cache/
+/.espressif/
+/.venv/
+/venv/
+/.idea/
+/.vscode/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+Thumbs.db
+.DS_Store
+
+# Do not commit device dumps, models, captures, credentials or build binaries
+/evidence/
+/captures/
+/backups/
+/firmware/
+*.bin
+*.elf
+*.map
+*.log
+*.core
+*.dmp
+*.pem
+*.key
+*.p12
+*.pfx
+*.espdl
+
+# Local publication/review metadata
+/publication-review*

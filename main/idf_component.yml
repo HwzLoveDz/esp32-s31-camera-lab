@@ -1,0 +1,15 @@
+dependencies:
+  idf: ">=6.0"
+  espressif/esp_board_manager:
+    version: "0.7.2"
+    require: public
+  espressif/esp_boards: "0.6.1"
+  espressif/esp_lvgl_port: "2.9.0"
+  lvgl/lvgl: "9.5.0"
+  espressif/usb: "1.5.0"
+  espressif/usb_host_uvc: "2.5.2"
+  espressif/esp_video: "2.4.1"
+  espressif/esp_cam_sensor: "2.4.0"
+  espressif/esp-dl: "3.3.11"
+  espressif/human_face_detect: "0.4.2"
+  espressif/human_face_recognition: "0.3.2"
