@@ -4,9 +4,9 @@
 
 基于 ESP32-S31-Korvo-1 的双摄像头视觉应用，集成 USB UVC 与板载 DVP 视频采集、画中画显示、本地人脸检测及特征比对。采用 LVGL 触控界面，支持主副画面切换、预览冻结与人脸库管理。
 
-[![ESP32-S31 Camera Lab 实机运行界面](docs/images/camera-lab-hardware.jpg)](https://www.bilibili.com/video/BV1WqeJ6EEQg/)
+[![ESP32-S31 Camera Lab 实机演示视频封面](docs/images/camera-lab-hardware.jpg)](https://www.bilibili.com/video/BV1WqeJ6EEQg/)
 
-*ESP32-S31-Korvo-1 双摄画中画运行界面。*
+*ESP32-S31 Camera Lab 实机演示视频封面，点击观看。*
 
 实机演示：[ESP32-S31 Camera Lab — 双摄视觉与人脸识别](https://www.bilibili.com/video/BV1WqeJ6EEQg/)（Bilibili，视频编号：`BV1WqeJ6EEQg`）。
 
@@ -82,7 +82,7 @@ AI 任务固定在 Core 1，使用 ESP-DL 面向 ESP32-S31 的加速实现；LCD
 
 ## 隐私与调试
 
-应用不启用 Wi-Fi、蓝牙配对或云端上传；人脸特征仅在本机 RAM 中使用。仓库不包含人脸录入样本、特征数据库、设备唯一标识或烧录备份。实机照片由维护者提供。
+应用不启用 Wi-Fi、蓝牙配对或云端上传；人脸特征仅在本机 RAM 中使用。仓库不包含人脸录入样本、特征数据库、设备唯一标识或烧录备份。实机演示视频及封面由维护者提供。
 
 串口提供 `camera_status` 和 `camera_action` 调试命令。显式执行 **`camera_screen` 会通过串口导出当前画面**，画面可能包含人物或环境；分享调试输出前请自行检查。详见 [调试说明](docs/DEBUGGING.md)。
 

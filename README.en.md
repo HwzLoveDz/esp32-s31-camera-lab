@@ -4,9 +4,9 @@
 
 A dual-camera vision application for ESP32-S31-Korvo-1, combining USB UVC and onboard DVP video capture, picture-in-picture display, and on-device face detection and feature matching. The LVGL touch interface supports swapping camera views, freezing the preview, and managing a local face gallery.
 
-[![ESP32-S31 Camera Lab running on hardware](docs/images/camera-lab-hardware.jpg)](https://www.bilibili.com/video/BV1WqeJ6EEQg/)
+[![ESP32-S31 Camera Lab hardware demonstration video cover](docs/images/camera-lab-hardware.jpg)](https://www.bilibili.com/video/BV1WqeJ6EEQg/)
 
-*Dual-camera picture-in-picture display on ESP32-S31-Korvo-1.*
+*ESP32-S31 Camera Lab hardware demonstration video cover. Click to watch.*
 
 Hardware demonstration: [ESP32-S31 Camera Lab — Dual-Camera Vision and Face Recognition](https://www.bilibili.com/video/BV1WqeJ6EEQg/) (Bilibili, video ID: `BV1WqeJ6EEQg`).
 
@@ -82,7 +82,7 @@ This test covered functionality and short-term stability. Two JPEG decoding erro
 
 ## Privacy and Debugging
 
-The application does not enable Wi-Fi, Bluetooth pairing, or cloud uploads. Facial features are used only in local RAM. The repository does not contain enrollment samples, feature databases, unique device identifiers, or flash backups. The hardware photograph was provided by the maintainer.
+The application does not enable Wi-Fi, Bluetooth pairing, or cloud uploads. Facial features are used only in local RAM. The repository does not contain enrollment samples, feature databases, unique device identifiers, or flash backups. The hardware demonstration video and cover were provided by the maintainer.
 
 The serial console provides the `camera_status` and `camera_action` debug commands. Explicitly running **`camera_screen` exports the current image over the serial port**; that image may contain people or surroundings. Review debug output before sharing it. See the [debugging guide](docs/DEBUGGING.md) (Chinese).
 
