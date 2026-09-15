@@ -8,7 +8,9 @@ A dual-camera vision application for ESP32-S31-Korvo-1, combining USB UVC and on
 
 *ESP32-S31 Camera Lab hardware demonstration video cover. Click to watch.*
 
-Hardware demonstration: [ESP32-S31 Camera Lab — Dual-Camera Vision and Face Recognition](https://www.bilibili.com/video/BV1WqeJ6EEQg/) (Bilibili, video ID: `BV1WqeJ6EEQg`).
+Hardware demonstration: **ESP32-S31 Camera Lab — Dual-Camera Vision and Face Recognition**.
+
+[Bilibili](https://www.bilibili.com/video/BV1WqeJ6EEQg/) (video ID: `BV1WqeJ6EEQg`) · [YouTube](https://www.youtube.com/watch?v=IVSqIUNDy-o)
 
 ## Features
 

@@ -8,7 +8,9 @@
 
 *ESP32-S31 Camera Lab 实机演示视频封面，点击观看。*
 
-实机演示：[ESP32-S31 Camera Lab — 双摄视觉与人脸识别](https://www.bilibili.com/video/BV1WqeJ6EEQg/)（Bilibili，视频编号：`BV1WqeJ6EEQg`）。
+实机演示：**ESP32-S31 Camera Lab — 双摄视觉与人脸识别**。
+
+[Bilibili](https://www.bilibili.com/video/BV1WqeJ6EEQg/)（视频编号：`BV1WqeJ6EEQg`） · [YouTube](https://www.youtube.com/watch?v=IVSqIUNDy-o)
 
 ## 功能概述
 
