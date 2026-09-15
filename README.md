@@ -2,9 +2,11 @@
 
 基于 ESP32-S31-Korvo-1 的双摄像头视觉应用，集成 USB UVC 与板载 DVP 视频采集、画中画显示、本地人脸检测及特征比对。采用 LVGL 触控界面，支持主副画面切换、预览冻结与人脸库管理。
 
-![ESP32-S31 Camera Lab 实机运行界面](docs/images/camera-lab-hardware.jpg)
+[![ESP32-S31 Camera Lab 实机运行界面](docs/images/camera-lab-hardware.jpg)](https://www.bilibili.com/video/BV1WqeJ6EEQg/)
 
 *ESP32-S31-Korvo-1 双摄画中画运行界面。*
+
+实机演示：[ESP32-S31 Camera Lab — 双摄视觉与人脸识别](https://www.bilibili.com/video/BV1WqeJ6EEQg/)（Bilibili，视频编号：`BV1WqeJ6EEQg`）。
 
 ## 功能概述
 
